@@ -1,0 +1,104 @@
+#ProductSeller {
+    min-height: 80vh;
+    margin-top: 100px;
+
+    .SellerArea {
+        .SellerTitle {
+            color: #944E63;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+
+        }
+
+        .ContainerArea {
+            flex-wrap: wrap;
+            margin-top: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            .SellerBox {
+                border: 4px solid #944E63;
+
+                .ImageSeller {
+
+                    width: 100%;
+                    overflow: hidden;
+                    position: relative;
+
+                    img {
+                       margin-left: 10px;
+                        text-align: center;
+                        
+                        width: 280px;
+                    }
+
+
+                    .Icons {
+                        color: white;
+                        position: absolute;
+                        left: 20px;
+                        flex-direction: column;
+                        display: flex;
+                        align-items: center;
+                        // justify-content: center;
+                        gap: 10px;
+                        font-size: 20px;
+
+                        span {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            padding: 2px;
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            background-color: orange;
+                        }
+                    }
+                }
+
+                .titleby {
+                    text-align: center;
+                    width: 300px;
+
+                    h1 {
+                        &:hover {
+                            color: orange;
+                            transition: 0.3s;
+                        }
+                    }
+
+                    h2 {
+                        &:hover {
+                            color: orange;
+                            transition: 0.3s;
+                        }
+                    }
+
+                    h3 {
+                        font-size: 22px;
+
+                        &:hover {
+                            color: orange;
+                            transition: 0.3s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.SellerBox:hover .Icons {
+
+    flex-direction: column;
+    display: block;
+    gap: 20px;
+    left: 80px;
+    transform: translateY(-162px);
+    transition: 0.5s;
+}

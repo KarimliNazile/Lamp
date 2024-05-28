@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}

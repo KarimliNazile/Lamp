@@ -1,0 +1,31 @@
+#Error{
+    min-height: 40vh;
+     padding: 200px;
+    
+    .ErrorArea{
+        .ErrorBox{
+            text-align: center;
+            align-items: center;
+            // margin-top: 200px;
+            .A404Err{
+                h1{
+                    font-size: 100px;
+                }
+
+            }
+            .TextErr{
+                h4{
+                    font-size: 50px;
+                }
+
+            }
+            .LoremErr{
+                p{
+                    font-size: 20px;
+                }
+
+            }
+
+        }
+    }
+}
